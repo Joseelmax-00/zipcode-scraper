@@ -1,3 +1,5 @@
+# This program requires a template.xlsx file found in https://drive.google.com/file/d/1gECWz-x3kN-3_rNZfsU1XJJNmgEOorf8/view?usp=sharing
+
 # The zipcode_scraper was created by José Maquia, eeseljose@gmail.com, github.com/Joseelmax-00.
 
 This was my first project for an Upwork.com client. It scrapes the database of unitedstateszipcodes.org for certain items of information on a list of around 50.000 zipcodes. It exports those results to a text file, which can then be exported to an excel book. The project includes multithreading in order to achieve the fastest speed possible. 
