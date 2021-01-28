@@ -75,6 +75,23 @@ take care of the rest!!
 
 This program can be adapted to gather more data by editing the code in the get_required_info 
 function on the utilities.py module.
+
+## Requirements
+
+You need the following programs installed:
+
+	* Latest Python version (3.6 will do)
+	* Chrome Webdriver. (It must be installed into PATH or edit its location in vars.py )
+
+
+The following libraries, which can be installed by entering the command into the
+command prompt:
+
+	* selenium  |  Command: pip install selenium
+	* openpyxl  |  Command: pip install openpyxl
+
+
+
 ```
 
 
