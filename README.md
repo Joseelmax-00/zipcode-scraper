@@ -75,9 +75,11 @@ take care of the rest!!
 
 This program can be adapted to gather more data by editing the code in the get_required_info 
 function on the utilities.py module.
+```
 
 ## Requirements
 
+```markdown
 You need the following programs installed:
 
 	* Latest Python version (3.6 will do)
@@ -89,9 +91,6 @@ command prompt:
 
 	* selenium  |  Command: pip install selenium
 	* openpyxl  |  Command: pip install openpyxl
-
-
-
 ```
 
 
