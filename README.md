@@ -2,25 +2,24 @@
 
 # The zipcode_scraper was created by José Maquia, eeseljose@gmail.com, github.com/Joseelmax-00.
 
-This was my first project for an Upwork.com client. It scrapes the database of unitedstateszipcodes.org for certain items of information on a list of around 50.000 zipcodes. It exports those results to a text file, which can then be exported to an excel book. The project includes multithreading in order to achieve the fastest speed possible. 
+This was my first project for an Upwork.com client. It scrapes a database for certain items of information on a list of around 50.000 zipcodes. It exports those results to a text file, which can then be exported to an excel book. The project includes multithreading in order to achieve the fastest speed possible. 
 
 ## Description
 
 ```markdown
-This program scrapes the database on https://www.unitedstateszipcodes.org/ for data, such as 
-population, timezones, or other statistics
+This program scrapes a database of zipcodes for data, such as population, timezones, or other statistics
 
 Read the requirements section if you encounter any problem.
 
-The program works by opening a Chrome browser window, loads the page for a specific zipcode, 
-extracts the data and pastes it into a text file, you then need to convert the text file into an 
-excel spreadsheet with option number 3.
+The program works by opening a Chrome browser window, loading the page for a specific zipcode, 
+extracting the data and pasting it into a text file, then this file needs to be convert from a text file into an 
+excel spreadsheet by running the program and choosing option number 3.
 ```
 
 ## Instructions
 
 ```markdown
-First, you need to edit the variables in vars.py to suit your needs (don't worry, all variables 
+First, you need to edit the variables in vars.py to suit your needs (All variables 
 have a description so you know what you are editing).
 
 The number on the num_threads defines what is the highest number of instances of Chrome 
