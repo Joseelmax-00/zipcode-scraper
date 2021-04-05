@@ -2,7 +2,9 @@
 
 # The zipcode_scraper was created by José Maquia, eeseljose@gmail.com, github.com/Joseelmax-00.
 
-This was my first project for an Upwork.com client. It scrapes a database for certain items of information on a list of around 50.000 zipcodes. It exports those results to a text file, which can then be exported to an excel book. The project includes multithreading in order to achieve the fastest speed possible. 
+This was my first project for an Upwork.com client. It scrapes a database for certain items of information on a list of 
+around 50.000 zipcodes. It exports those results to a text file, which can then be exported to an excel book. The project 
+includes multithreading in order to achieve the fastest speed possible. 
 
 ## Description
 
@@ -12,8 +14,8 @@ This program scrapes a database of zipcodes for data, such as population, timezo
 Read the requirements section if you encounter any problem.
 
 The program works by opening a Chrome browser window, loading the page for a specific zipcode, 
-extracting the data and pasting it into a text file, then this file needs to be convert from a text file into an 
-excel spreadsheet by running the program and choosing option number 3.
+extracting the data and pasting it into a text file, then this file needs to be convert from a 
+text file into an excel spreadsheet by running the program and choosing option number 3.
 ```
 
 ## Instructions
